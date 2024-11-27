@@ -1,0 +1,59 @@
+body{
+    background-color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: chartreuse;
+}
+
+h3{
+    text-align: center;
+    color: chartreuse;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th{
+    background-color: goldenrod;
+}
+
+.micro-computer-description-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+}
+
+
+.micro-computer-description{
+    width:220px ;
+    padding:25px ;
+    background-color:rgb(5, 135, 145) ;
+    border: 1px; 
+    font: size 16px; 
+    line-height: 1.6;
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .microcomputer-description:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 4px 8px blue;
+  }
+
+  .micro-computer-description h3{
+    margin-top: 0;
+  }
